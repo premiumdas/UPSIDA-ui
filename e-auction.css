@@ -1,0 +1,67 @@
+body{
+    background-image: url("./image\ 127.png");
+}
+
+.e-auctionmidpart{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background-color:#214964;
+    border-radius: 2%;
+    padding-left: 3%;
+    padding-top:5%;
+    color: rgb(255, 255, 255);
+}
+
+.loginboxpart{
+    position: relative;
+    width: 25%;
+    height: 75%;
+    left: 55%;
+    top: 12.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    color: #214964;
+    padding: 3%;
+    align-items: center;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+#captchabutton{
+    background-color:#214964;
+    color: #214964;
+    width: 100%;
+}
+#captchatext{
+    width: 50%;
+}
+#usernameinput #passwordinput #captchainput{
+    margin: 5%;   
+}
+#loginbutton{
+    background-color:#4BADB1;
+    border-color: #4BADB1, 100%;
+}
+#registerbutton{
+    background-color:white;
+    color:#214964;
+}
+.disclaimer{
+    width: 50%;
+    margin-top: 2%;
+    border: 1px solid;
+    border-radius: 2%;
+    padding: 1%;
+    font-size: 86%;
+}
+.dropdown-toggle{
+    color: white;
+}
+.bottombar{
+    bottom: 0;
+    width: 100%;
+}
